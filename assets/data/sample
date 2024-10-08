@@ -198,6 +198,10 @@
     {
         "id": "sadist",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/evil.png?raw=true",
+        "firstNight": 1,
+        "firstNightReminder": "Show minions and bluffs",
+        "otherNight": 0,
+        "otherNightReminder": "",
         "reminders": ["Dead","Evil"],
         "remindersGlobal": [],
         "name": "Sadist",
@@ -207,6 +211,10 @@
     {
         "id": "hypnotist",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/evil.png?raw=true",
+        "firstNight": 1,
+        "firstNightReminder": "Show minions and bluffs",
+        "otherNight": 0,
+        "otherNightReminder": "",
         "reminders": ["Dead","Mad","Mad info - see notes"],
         "remindersGlobal": [],
         "name": "Hypnotist",
@@ -216,6 +224,10 @@
     {
         "id": "shocker",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/evil.png?raw=true",
+        "firstNight": 1,
+        "firstNightReminder": "Show minions and bluffs",
+        "otherNight": 0,
+        "otherNightReminder": "",
         "reminders": ["Dead","Ex. when nominated","Ex. good might not die"],
         "remindersGlobal": [],
         "name": "Shocker",
