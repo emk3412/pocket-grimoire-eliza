@@ -22,8 +22,8 @@
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "reminders": ["Tied up"],
         "remindersGlobal": [],
-        "name": "Denier",
-        "team": "Rigger",
+        "name": "Rigger",
+        "team": "townsfolk",
         "ability": "Each night*, you may choose a player; they cannot leave their spot during the next day."
     },
     {
@@ -35,6 +35,87 @@
         "team": "townsfolk",
         "ability": "Each night*, if you and another player have agreed the previous day and privately told the storyteller, you wake when they do, see what they see, and observe if they choose any players. If you do this with the exhibitionist, you both become evil that night and learn your new alignment. If you are poisoned, the player you chose is also poisoned that night."
     },
+    {
+        "id": "size queen",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": ["4 votes"],
+        "remindersGlobal": [],
+        "name": "Size queen",
+        "team": "townsfolk",
+        "ability": "Each night*, you may choose a player; if they are the demon or have a townsfolk ability, their vote counts as 4 votes tomorrow."
+    },
+    {
+        "id": "tickler",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": ["Dead","Tickler in play"],
+        "remindersGlobal": [],
+        "name": "Tickler",
+        "team": "townsfolk",
+        "ability": "If the demon laughs, you might immediately die. This can only happen during town hall, executions, or night. If this happens at night, your death is announced the same way as deaths are usually announced. Otherwise, your death is announced immediately. The demon knows you are in play."
+    },
+    {
+        "id": "whimperer",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": ["Ability works"],
+        "remindersGlobal": [],
+        "name": "Whimperer",
+        "team": "townsfolk",
+        "ability": "Each night*, if you whimper/moan, one townsfolk’s ability is guaranteed to work correctly tonight. They are told this."
+    },
+    {
+        "id": "whip",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": ["Can ex. with 4 votes"],
+        "remindersGlobal": [],
+        "name": "Whip",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a player. Tomorrow, if they are good, they can nominate and pass an execution with only 4 votes."
+    },
+    {
+        "id": "handcuff",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": ["Can only talk to..."],
+        "remindersGlobal": [],
+        "name": "Handcuff",
+        "team": "townsfolk",
+        "ability": "Each day, you may publicly choose two players. If they are different alignments, they can only talk to each other tomorrow until town hall. They learn this at night."
+    },
+    {
+        "id": "clone",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": ["Gain ability"],
+        "remindersGlobal": [],
+        "name": "Clone",
+        "team": "townsfolk",
+        "ability": "Once per game, at night*, choose a player. You become their alignment and gain their ability, even if they are dead or have already used their ability. If you choose the demon, you learn this but gain a not in play minion ability."
+    },
+    {
+        "id": "counter",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "Counter",
+        "team": "townsfolk",
+        "ability": "You start knowing the sequence of good and evil players, but not who is who."
+    },
+    {
+        "id": "gag",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": ["Evil team gagged"],
+        "remindersGlobal": [],
+        "name": "Gag",
+        "team": "townsfolk",
+        "ability": "Once per game, at night*, use your ability. The evil team cannot communicate to each other about the game tomorrow. They learn this. Any evil players who communicate to each other about the game are executed."
+    },
+    {
+        "id": "vanilla",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": ["Safe"],
+        "remindersGlobal": [],
+        "name": "Vanilla",
+        "team": "townsfolk",
+        "ability": "You are useless, but you’re safe from the demon."
+    },
 
     {
         "id": "blindfold",
@@ -44,6 +125,33 @@
         "name": "Blindfold",
         "team": "outsider",
         "ability": "While you are alive, all townsfolk info is false. If you are mad about being an outsider at any time, you can never die by execution."
+    },
+    {
+        "id": "experimentalist",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
+        "reminders": ["Mad","Cannot die"],
+        "remindersGlobal": [],
+        "name": "Experimentalist",
+        "team": "outsider",
+        "ability": "Each day, for the first three days, you have to be mad as a different townsfolk of your choice or might be executed. If you survive past the third day, you can’t die if you are good."
+    },
+    {
+        "id": "ropebunny",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
+        "reminders": ["Tied up"],
+        "remindersGlobal": [],
+        "name": "Rope Bunny",
+        "team": "outsider",
+        "ability": "If you die, you and your two townsfolk neighbors (living or dead) can’t leave their spot during the next day."
+    },
+    {
+        "id": "exhibitionist",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
+        "reminders": ["Knows exhibitionist","Evil"],
+        "remindersGlobal": [],
+        "name": "Exhibitionist",
+        "team": "outsider",
+        "ability": "Your two townsfolk neighbors start knowing who you are. If the voyeur chooses you, you both become evil."
     },
     {
         "id": "ruiner",
