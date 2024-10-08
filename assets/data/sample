@@ -8,34 +8,61 @@
         "team": "townsfolk",
         "ability": "Each day, you may publicly choose a player. That player is poisoned tonight and tomorrow day."
     },
+    {
+        "id": "masochist",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": ["Gain ability"],
+        "remindersGlobal": [],
+        "name": "Masochist",
+        "team": "townsfolk",
+        "ability": "Every time you are chosen by the demon, you gain an additional not in play townsfolk ability chosen by the storyteller and do not die."
+    },
+    {
+        "id": "rigger",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": ["Tied up"],
+        "remindersGlobal": [],
+        "name": "Denier",
+        "team": "Rigger",
+        "ability": "Each night*, you may choose a player; they cannot leave their spot during the next day."
+    },
+    {
+        "id": "voyeur",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": ["Show voyeur","Evil"],
+        "remindersGlobal": [],
+        "name": "Voyeur",
+        "team": "townsfolk",
+        "ability": "Each night*, if you and another player have agreed the previous day and privately told the storyteller, you wake when they do, see what they see, and observe if they choose any players. If you do this with the exhibitionist, you both become evil that night and learn your new alignment. If you are poisoned, the player you chose is also poisoned that night."
+    },
 
     {
-        "id": "denier",
+        "id": "blindfold",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
-        "reminders": ["Poisoned"],
-        "remindersGlobal": [],
-        "name": "Denier",
+        "reminders": ["Mad","Cannot die by execution"],
+        "remindersGlobal": ["All townsfolk info is false"],
+        "name": "Blindfold",
         "team": "outsider",
-        "ability": "Each day, you may publicly choose a player. That player is poisoned tonight and tomorrow day."
+        "ability": "While you are alive, all townsfolk info is false. If you are mad about being an outsider at any time, you can never die by execution."
     },
     {
-        "id": "denier",
+        "id": "ruiner",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
-        "reminders": ["Poisoned"],
+        "reminders": ["Player they nom. lives"],
         "remindersGlobal": [],
-        "name": "Denier",
+        "name": "Ruiner",
         "team": "minion",
-        "ability": "Each day, you may publicly choose a player. That player is poisoned tonight and tomorrow day."
+        "ability": "Each night*, choose a player. If that player nominates and the nominated player is executed, they don’t die."
     },
 
     {
-        "id": "denier",
+        "id": "sadist",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/evil.png?raw=true",
-        "reminders": ["Poisoned"],
+        "reminders": ["Dead","Evil","Gain ability"],
         "remindersGlobal": [],
-        "name": "Denier",
+        "name": "Sadist",
         "team": "demon",
-        "ability": "Each day, you may publicly choose a player. That player is poisoned tonight and tomorrow day."
+        "ability": "Each night, you may choose a player. If you choose an alive player, they die. If you choose a dead player, they turn evil. When you choose the masochist, both you and they gain the same additional not in play townsfolk ability."
     }
 
 ]
