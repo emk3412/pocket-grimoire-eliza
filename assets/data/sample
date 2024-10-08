@@ -42,6 +42,10 @@
     {
         "id": "size queen",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 2,
+        "otherNightReminder": "May choose a player",
         "reminders": ["4 votes"],
         "remindersGlobal": [],
         "name": "Size queen",
@@ -51,6 +55,10 @@
     {
         "id": "tickler",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "firstNight": 2,
+        "firstNightReminder": "Show demon tickler is in play",
+        "otherNight": 0,
+        "otherNightReminder": "",
         "reminders": ["Dead","Tickler in play"],
         "remindersGlobal": [],
         "name": "Tickler",
@@ -60,15 +68,23 @@
     {
         "id": "whimperer",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "firstNight": 3,
+        "firstNightReminder": "Tell a townsfolk they are protected",
+        "otherNight": 3,
+        "otherNightReminder": "Tell a townsfolk they are protected",
         "reminders": ["Ability works"],
         "remindersGlobal": [],
         "name": "Whimperer",
         "team": "townsfolk",
-        "ability": "Each night, if you whimper/moan, one townsfolk’s ability is guaranteed to work correctly tomorrow day and tomorrow night. They are told this."
+        "ability": "Each night, if you whimper/moan, one townsfolk is protected from poisoning tomorrow day and tomorrow night. They are told this."
     },
     {
         "id": "whip",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "firstNight": 2,
+        "firstNightReminder": "Choose a player",
+        "otherNight": 2,
+        "otherNightReminder": "Choose a player",
         "reminders": ["Can ex. with 4 votes"],
         "remindersGlobal": [],
         "name": "Whip",
@@ -78,6 +94,10 @@
     {
         "id": "handcuff",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "firstNight": 3,
+        "firstNightReminder": "Tell players if they are handcuffed",
+        "otherNight": 3,
+        "otherNightReminder": "Tell players if they are handcuffed",
         "reminders": ["Can only talk to..."],
         "remindersGlobal": [],
         "name": "Handcuff",
@@ -87,6 +107,10 @@
     {
         "id": "clone",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "firstNight": 1,
+        "firstNightReminder": "Choose a player?",
+        "otherNight": 1,
+        "otherNightReminder": "Choose a player?",
         "reminders": [],
         "remindersGlobal": [],
         "name": "Clone",
@@ -96,6 +120,10 @@
     {
         "id": "counter",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "firstNight": 2,
+        "firstNightReminder": "Learn sequence",
+        "otherNight": 0,
+        "otherNightReminder": "",
         "reminders": [],
         "remindersGlobal": [],
         "name": "Counter",
@@ -105,6 +133,10 @@
     {
         "id": "gag",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 2,
+        "otherNightReminder": "Use ability?",
         "reminders": ["Evil team gagged"],
         "remindersGlobal": [],
         "name": "Gag",
@@ -142,6 +174,10 @@
     {
         "id": "ropebunny",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
+        "firstNight": 0,
+        "firstNightReminder": "Tell them they are tied up",
+        "otherNight": 3,
+        "otherNightReminder": "Tell them they are tied up",
         "reminders": ["Tied up"],
         "remindersGlobal": [],
         "name": "Rope Bunny",
@@ -151,11 +187,15 @@
     {
         "id": "exhibitionist",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
+        "firstNight": 1,
+        "firstNightReminder": "Tell a townsfolk they are protected",
+        "otherNight": 1,
+        "otherNightReminder": "Tell a townsfolk they are protected",
         "reminders": ["Knows exhibitionist","Evil"],
         "remindersGlobal": [],
         "name": "Exhibitionist",
         "team": "outsider",
-        "ability": "Your two neighbors start knowing who you are. If the voyeur chooses you, you both become evil. If you are in play, there is another player that also registers as an exhibitionist."
+        "ability": "Your two neighbors start knowing who you are. If the voyeur chooses you, you both become evil."
     },
     {
         "id": "ruiner",
@@ -169,11 +209,15 @@
     {
         "id": "degrader",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
+        "firstNight": 0,
+        "firstNightReminder": "Show minions and bluffs",
+        "otherNight": 0,
+        "otherNightReminder": "",
         "reminders": ["Registers as dead"],
         "remindersGlobal": [],
         "name": "Degrader",
         "team": "minion",
-        "ability": "Twice per game, at night*, privately tell the storyteller a player. That player registers as dead starting tomorrow morning."
+        "ability": "Twice per game, at night*, choose a player. That player registers as dead starting tomorrow morning."
     },
     {
         "id": "edger",
