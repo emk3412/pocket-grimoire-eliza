@@ -1,7 +1,7 @@
 [
     {
         "id": "denier",
-        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/acrobat.png?raw=true",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "reminders": ["Poisoned"],
         "remindersGlobal": [],
         "name": "Denier",
@@ -11,7 +11,7 @@
 
     {
         "id": "denier",
-        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/acrobat.png?raw=true",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
         "reminders": ["Poisoned"],
         "remindersGlobal": [],
         "name": "Denier",
@@ -20,7 +20,7 @@
     },
     {
         "id": "denier",
-        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/acrobat.png?raw=true",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
         "reminders": ["Poisoned"],
         "remindersGlobal": [],
         "name": "Denier",
@@ -30,7 +30,7 @@
 
     {
         "id": "denier",
-        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/acrobat.png?raw=true",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/evil.png?raw=true",
         "reminders": ["Poisoned"],
         "remindersGlobal": [],
         "name": "Denier",
