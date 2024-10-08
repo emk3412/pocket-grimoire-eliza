@@ -11,7 +11,7 @@
     {
         "id": "masochist",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
-        "reminders": ["Gain ability"],
+        "reminders": [],
         "remindersGlobal": [],
         "name": "Masochist",
         "team": "townsfolk",
@@ -29,7 +29,7 @@
     {
         "id": "voyeur",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
-        "reminders": ["Show voyeur","Evil"],
+        "reminders": ["Show voyeur"],
         "remindersGlobal": [],
         "name": "Voyeur",
         "team": "townsfolk",
@@ -83,7 +83,7 @@
     {
         "id": "clone",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
-        "reminders": ["Gain ability"],
+        "reminders": [],
         "remindersGlobal": [],
         "name": "Clone",
         "team": "townsfolk",
@@ -110,7 +110,7 @@
     {
         "id": "vanilla",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
-        "reminders": ["Safe"],
+        "reminders": [],
         "remindersGlobal": [],
         "name": "Vanilla",
         "team": "townsfolk",
