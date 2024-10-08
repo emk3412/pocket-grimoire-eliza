@@ -1,0 +1,42 @@
+[
+    {
+        "id": "denier",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/acrobat.png?raw=true",
+        "reminders": ["Poisoned"],
+        "remindersGlobal": [],
+        "name": "Denier",
+        "team": "townsfolk",
+        "ability": "Each day, you may publicly choose a player. That player is poisoned tonight and tomorrow day."
+    },
+
+    {
+        "id": "denier",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/acrobat.png?raw=true",
+        "reminders": ["Poisoned"],
+        "remindersGlobal": [],
+        "name": "Denier",
+        "team": "outsider",
+        "ability": "Each day, you may publicly choose a player. That player is poisoned tonight and tomorrow day."
+    },
+    {
+        "id": "denier",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/acrobat.png?raw=true",
+        "reminders": ["Poisoned"],
+        "remindersGlobal": [],
+        "name": "Denier",
+        "team": "minion",
+        "ability": "Each day, you may publicly choose a player. That player is poisoned tonight and tomorrow day."
+    },
+
+    {
+        "id": "denier",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/acrobat.png?raw=true",
+        "reminders": ["Poisoned"],
+        "remindersGlobal": [],
+        "name": "Denier",
+        "team": "demon",
+        "ability": "Each day, you may publicly choose a player. That player is poisoned tonight and tomorrow day."
+    }
+
+]
+
