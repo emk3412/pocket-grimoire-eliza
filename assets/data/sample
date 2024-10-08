@@ -55,7 +55,7 @@
         "remindersGlobal": [],
         "name": "Tickler",
         "team": "townsfolk",
-        "ability": "If the demon laughs, you might immediately die. This can only happen during town hall, executions, or night. If this happens at night, your death is announced the same way as deaths are usually announced. Otherwise, your death is announced immediately. The demon knows you are in play."
+        "ability": "If the demon laughs, you might immediately die. This can only happen during town hall, executions, or night*. If this happens at night*, your death is announced the same way as deaths are usually announced. Otherwise, your death is announced immediately. The demon knows you are in play."
     },
     {
         "id": "whimperer",
@@ -64,7 +64,7 @@
         "remindersGlobal": [],
         "name": "Whimperer",
         "team": "townsfolk",
-        "ability": "Each night*, if you whimper/moan, one townsfolk’s ability is guaranteed to work correctly tonight. They are told this."
+        "ability": "Each night, if you whimper/moan, one townsfolk’s ability is guaranteed to work correctly tomorrow day and tomorrow night. They are told this."
     },
     {
         "id": "whip",
@@ -73,7 +73,7 @@
         "remindersGlobal": [],
         "name": "Whip",
         "team": "townsfolk",
-        "ability": "Each night*, choose a player. Tomorrow, if they are good, they can nominate and pass an execution with only 4 votes."
+        "ability": "Each night, choose a player. Tomorrow, if they are good, they can nominate and pass an execution with only 4 votes."
     },
     {
         "id": "handcuff",
@@ -91,7 +91,7 @@
         "remindersGlobal": [],
         "name": "Clone",
         "team": "townsfolk",
-        "ability": "Once per game, at night*, choose a player. You become their alignment and gain their ability, even if they are dead or have already used their ability. If you choose the demon, you learn this but gain a not in play minion ability."
+        "ability": "Once per game, at night, choose a player. You become their alignment and gain their ability, even if they are dead or have already used their ability. If you choose the demon, you learn this but gain a not in play minion ability."
     },
     {
         "id": "counter",
@@ -155,7 +155,7 @@
         "remindersGlobal": [],
         "name": "Exhibitionist",
         "team": "outsider",
-        "ability": "Your two neighbors start knowing who you are. If the voyeur chooses you, you both become evil."
+        "ability": "Your two neighbors start knowing who you are. If the voyeur chooses you, you both become evil. If you are in play, there is another player that also registers as an exhibitionist."
     },
     {
         "id": "ruiner",
