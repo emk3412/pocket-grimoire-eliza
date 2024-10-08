@@ -175,7 +175,7 @@
         "id": "edger",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
         "reminders": ["Resurrected"],
-        "remindersGlobal": ["One more day", "Ex. good might resurrect],
+        "remindersGlobal": ["One more day", "Ex. good might resurrect"],
         "name": "Edger",
         "team": "minion",
         "ability": "If the demon is executed, ending the game, play for one more day. If a player is then executed, the demon is resurrected the next morning. Executed good players might be resurrected two mornings after they are executed."
