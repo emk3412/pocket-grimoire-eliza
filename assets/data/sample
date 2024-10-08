@@ -120,8 +120,8 @@
     {
         "id": "blindfold",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
-        "reminders": ["Cannot die by ex."],
-        "remindersGlobal": ["Townsfolk info is false"],
+        "reminders": ["Cannot die by ex.", "Townsfolk info is false"],
+        "remindersGlobal": [],
         "name": "Blindfold",
         "team": "outsider",
         "ability": "While you are alive, all townsfolk info is false. If you are mad about being an outsider at any time, you can never die by execution."
@@ -174,8 +174,8 @@
     {
         "id": "edger",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
-        "reminders": ["Resurrected"],
-        "remindersGlobal": ["One more day", "Ex. good might resurrect"],
+        "reminders": ["Resurrected", "One more day", "Ex. good might resurrect"],
+        "remindersGlobal": [],
         "name": "Edger",
         "team": "minion",
         "ability": "If the demon is executed, ending the game, play for one more day. If a player is then executed, the demon is resurrected the next morning. Executed good players might be resurrected two mornings after they are executed."
@@ -183,8 +183,8 @@
     {
         "id": "punisher",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
-        "reminders": ["No ability","Dead"],
-        "remindersGlobal": ["Ex. good might not die"],
+        "reminders": ["No ability","Dead","Ex. good might not die"],
+        "remindersGlobal": [],
         "name": "Punisher",
         "team": "minion",
         "ability": "The first time you are executed, you live and the nominator dies at night. Executed good players might not die."
