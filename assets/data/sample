@@ -162,6 +162,34 @@
         "team": "minion",
         "ability": "Each night*, choose a player. If that player nominates and the nominated player is executed, they don’t die."
     },
+    {
+        "id": "degrader",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
+        "reminders": ["Registers as dead"],
+        "remindersGlobal": [],
+        "name": "Degrader",
+        "team": "minion",
+        "ability": "Twice per game, at night*, privately tell the storyteller a player. That player registers as dead starting tomorrow morning."
+    },
+    {
+        "id": "edger",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
+        "reminders": ["Resurrected"],
+        "remindersGlobal": ["One more day"],
+        "name": "Edger",
+        "team": "minion",
+        "ability": "If the demon is executed, ending the game, play for one more day. If a player is then executed, the demon is resurrected."
+    },
+    {
+        "id": "punisher",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
+        "reminders": ["No ability","Dead"],
+        "remindersGlobal": ["Executed good players might not die"],
+        "name": "Punisher",
+        "team": "minion",
+        "ability": "The first time you are executed, you live and the nominator dies at night. Executed good players might not die."
+    },
+
 
     {
         "id": "sadist",
@@ -171,6 +199,33 @@
         "name": "Sadist",
         "team": "demon",
         "ability": "Each night, you may choose a player. If you choose an alive player, they die. If you choose a dead player, they turn evil. When you choose the masochist, both you and they gain the same additional not in play townsfolk ability."
+    }
+    {
+        "id": "hypnotist",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/evil.png?raw=true",
+        "reminders": ["Dead","Mad","Mad info - see notes"],
+        "remindersGlobal": [],
+        "name": "Hypnotist",
+        "team": "demon",
+        "ability": "Each night, you may choose a player; they die. Each night, you may choose a player and a townsfolk or outsider character they are mad as. If the chosen character is an info role, choose the info they are mad about. The next day, the chosen player has to be mad or might die."
+    }
+    {
+        "id": "shocker",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/evil.png?raw=true",
+        "reminders": ["Dies when nominated"],
+        "remindersGlobal": [],
+        "name": "Shocker",
+        "team": "demon",
+        "ability": "Each night, you may choose a player; they die. Each night, you may choose a second player; if nominated tomorrow, they die immediately."
+    }
+    {
+        "id": "switch",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/evil.png?raw=true",
+        "reminders": ["Good","Evil"],
+        "remindersGlobal": [],
+        "name": "Switch",
+        "team": "demon",
+        "ability": "Each night, you may choose a player; they die. Each night, you may choose two players to swap alignments."
     }
 
 ]
