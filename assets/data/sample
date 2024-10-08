@@ -2,6 +2,10 @@
     {
         "id": "denier",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
         "reminders": ["Poisoned"],
         "remindersGlobal": [],
         "name": "Denier",
@@ -198,7 +202,7 @@
         "remindersGlobal": [],
         "name": "Sadist",
         "team": "demon",
-        "ability": "Each night, you may choose a player. If you choose an alive player, they die. If you choose a dead player, they turn evil. When you choose the masochist, both you and they gain the same additional not in play townsfolk ability."
+        "ability": "Each night*, you may choose a player. If you choose an alive player, they die. If you choose a dead player, they turn evil. When you choose the masochist, both you and they gain the same additional not in play townsfolk ability."
     },
     {
         "id": "hypnotist",
@@ -207,7 +211,7 @@
         "remindersGlobal": [],
         "name": "Hypnotist",
         "team": "demon",
-        "ability": "Each night, you may choose a player; they die. Each night, you may also choose a player and a townsfolk or outsider character they are mad as. If the chosen character is an info role, choose the info they are mad about. The next day, the chosen player has to be mad or might die."
+        "ability": "Each night*, you may choose a player; they die. Each night*, you may also choose a player and a townsfolk or outsider character they are mad as. If the chosen character is an info role, choose the info they are mad about. The next day, the chosen player has to be mad or might die."
     },
     {
         "id": "shocker",
@@ -216,16 +220,20 @@
         "remindersGlobal": [],
         "name": "Shocker",
         "team": "demon",
-        "ability": "Each night, you may choose a player; they die. Or, you may choose two players; if one of them is nominated tomorrow, that player is immediately executed. Executed good players might not die."
+        "ability": "Each night*, you may choose a player; they die. Or, you may choose two players; if one of them is nominated tomorrow, that player is immediately executed. Executed good players might not die."
     },
     {
         "id": "switch",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/evil.png?raw=true",
+        "firstNight": 1,
+        "firstNightReminder": "Show minions and bluffs",
+        "otherNight": 0,
+        "otherNightReminder": "",
         "reminders": ["Dead","Good","Evil"],
         "remindersGlobal": [],
         "name": "Switch",
         "team": "demon",
-        "ability": "Each night, you may choose a player; they die. Each night, you may also choose two players to swap alignments."
+        "ability": "Each night*, you may choose a player; they die. Each night*, you may also choose two players to swap alignments."
     }
 
 ]
