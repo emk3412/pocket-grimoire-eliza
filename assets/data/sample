@@ -120,8 +120,8 @@
     {
         "id": "blindfold",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
-        "reminders": ["Mad","Cannot die by execution"],
-        "remindersGlobal": ["All townsfolk info is false"],
+        "reminders": ["Cannot die by ex."],
+        "remindersGlobal": ["Townsfolk info is false"],
         "name": "Blindfold",
         "team": "outsider",
         "ability": "While you are alive, all townsfolk info is false. If you are mad about being an outsider at any time, you can never die by execution."
@@ -129,7 +129,7 @@
     {
         "id": "experimentalist",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
-        "reminders": ["Mad","Cannot die"],
+        "reminders": ["Cannot die"],
         "remindersGlobal": [],
         "name": "Experimentalist",
         "team": "outsider",
@@ -151,7 +151,7 @@
         "remindersGlobal": [],
         "name": "Exhibitionist",
         "team": "outsider",
-        "ability": "Your two townsfolk neighbors start knowing who you are. If the voyeur chooses you, you both become evil."
+        "ability": "Your two neighbors start knowing who you are. If the voyeur chooses you, you both become evil."
     },
     {
         "id": "ruiner",
@@ -178,7 +178,7 @@
         "remindersGlobal": ["One more day"],
         "name": "Edger",
         "team": "minion",
-        "ability": "If the demon is executed, ending the game, play for one more day. If a player is then executed, the demon is resurrected."
+        "ability": "If the demon is executed, ending the game, play for one more day. If a player is then executed, the demon is resurrected the next morning. Executed good players might be resurrected two mornings after they are executed."
     },
     {
         "id": "punisher",
@@ -194,7 +194,7 @@
     {
         "id": "sadist",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/evil.png?raw=true",
-        "reminders": ["Dead","Evil","Gain ability"],
+        "reminders": ["Dead","Evil"],
         "remindersGlobal": [],
         "name": "Sadist",
         "team": "demon",
@@ -212,16 +212,16 @@
     {
         "id": "shocker",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/evil.png?raw=true",
-        "reminders": ["Dies when nominated"],
+        "reminders": ["Dead","Dies when nominated"],
         "remindersGlobal": [],
         "name": "Shocker",
         "team": "demon",
-        "ability": "Each night, you may choose a player; they die. Each night, you may choose a second player; if nominated tomorrow, they die immediately."
+        "ability": "Each night, you may choose a player; they die. Or, you may choose two players; if one of them is nominated tomorrow, that player is immediately executed and dies."
     },
     {
         "id": "switch",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/evil.png?raw=true",
-        "reminders": ["Good","Evil"],
+        "reminders": ["Dead","Good","Evil"],
         "remindersGlobal": [],
         "name": "Switch",
         "team": "demon",
