@@ -289,7 +289,7 @@
         "remindersGlobal": [],
         "name": "Switch",
         "team": "demon",
-        "ability": "Each night*, you may choose a player; they die. Each night*, you may also choose two players to swap alignments."
+        "ability": "Each night*, you may choose a player; they die. Each night*, you may also choose two players (not yourself) to swap alignments."
     }
 
 ]
