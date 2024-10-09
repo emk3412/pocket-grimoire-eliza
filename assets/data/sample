@@ -89,7 +89,7 @@
         "remindersGlobal": [],
         "name": "Whip",
         "team": "townsfolk",
-        "ability": "Each night, choose a player. Tomorrow, if they are good, they can nominate and pass an execution with only 4 votes."
+        "ability": "Each night, choose a player. Tomorrow, if they are good, they can nominate and this execution will pass immediately if there are at least 4 votes."
     },
     {
         "id": "handcuff",
@@ -104,19 +104,7 @@
         "team": "townsfolk",
         "ability": "Each day, you may publicly choose two players. If they are different alignments, they can only talk to each other tomorrow until town hall. They learn this at night."
     },
-    {
-        "id": "clone",
-        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
-        "firstNight": 1,
-        "firstNightReminder": "Choose a player?",
-        "otherNight": 1,
-        "otherNightReminder": "Choose a player?",
-        "reminders": [],
-        "remindersGlobal": [],
-        "name": "Clone",
-        "team": "townsfolk",
-        "ability": "Once per game, at night, choose a player. You become their alignment and gain their ability, even if they are dead or have already used their ability. If you choose the demon, you learn this but gain a not in play minion ability."
-    },
+
     {
         "id": "counter",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
@@ -144,6 +132,19 @@
         "ability": "Once per game, at night*, use your ability. The evil team cannot communicate to each other about the game tomorrow. They learn this. Any evil players who communicate to each other about the game are executed."
     },
     {
+        "id": "ropebunny",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "firstNight": 0,
+        "firstNightReminder": "Tell them they are tied up",
+        "otherNight": 3,
+        "otherNightReminder": "Tell them they are tied up",
+        "reminders": ["Tied up"],
+        "remindersGlobal": [],
+        "name": "Rope Bunny",
+        "team": "townsfolk",
+        "ability": "If you die, you and your two townsfolk neighbors (living or dead) can’t leave their spot during the next day."
+    },
+    {
         "id": "vanilla",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "reminders": [],
@@ -151,6 +152,19 @@
         "name": "Vanilla",
         "team": "townsfolk",
         "ability": "You are useless, but you’re safe from the demon."
+    },
+    {
+        "id": "clone",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
+        "firstNight": 1,
+        "firstNightReminder": "Choose a player?",
+        "otherNight": 1,
+        "otherNightReminder": "Choose a player?",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "Clone",
+        "team": "outsider",
+        "ability": "Once per game, at night, choose a player. You become their alignment and gain their ability, even if they are dead or have already used their ability. If you choose the demon, you learn this but gain a not in play minion ability."
     },
 
     {
@@ -171,19 +185,7 @@
         "team": "outsider",
         "ability": "Each day, for the first three days, you have to be mad as a different townsfolk of your choice or might be executed. If you survive past the third day, you can’t die if you are good."
     },
-    {
-        "id": "ropebunny",
-        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
-        "firstNight": 0,
-        "firstNightReminder": "Tell them they are tied up",
-        "otherNight": 3,
-        "otherNightReminder": "Tell them they are tied up",
-        "reminders": ["Tied up"],
-        "remindersGlobal": [],
-        "name": "Rope Bunny",
-        "team": "outsider",
-        "ability": "If you die, you and your two townsfolk neighbors (living or dead) can’t leave their spot during the next day."
-    },
+
     {
         "id": "exhibitionist",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
