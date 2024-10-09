@@ -76,7 +76,7 @@
         "remindersGlobal": [],
         "name": "Whimperer",
         "team": "townsfolk",
-        "ability": "Each night, if you whimper/moan, one townsfolk is protected from poisoning tomorrow day and tomorrow night. They are told this."
+        "ability": "Each night, if you whimper/moan satisfactorily, one townsfolk is protected from poisoning tomorrow day and tomorrow night. They are told this during the night."
     },
     {
         "id": "whip",
