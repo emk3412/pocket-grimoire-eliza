@@ -89,7 +89,7 @@
         "remindersGlobal": [],
         "name": "Whip",
         "team": "townsfolk",
-        "ability": "Each night, choose a player. Tomorrow, if they are good, they can nominate and this execution will pass immediately if there are at least 4 votes."
+        "ability": "Each night, choose a player. Tomorrow, if they are good, any nomination they make will pass immediately if there are at least 4 votes."
     },
     {
         "id": "handcuff",
@@ -102,7 +102,7 @@
         "remindersGlobal": [],
         "name": "Handcuff",
         "team": "townsfolk",
-        "ability": "Each day, you may publicly choose two players. If they are different alignments, they can only talk to each other tomorrow until town hall. They learn this at night."
+        "ability": "Each day, you may publicly choose two players. If they are different alignments, they can only speak to each other about the game tomorrow until town hall. They each learn this separately at night. If a player breaks this rule, they might die."
     },
 
     {
