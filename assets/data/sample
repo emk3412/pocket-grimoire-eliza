@@ -209,15 +209,15 @@
     {
         "id": "degrader",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
-        "firstNight": 0,
-        "firstNightReminder": "Show minions and bluffs",
-        "otherNight": 0,
-        "otherNightReminder": "",
+        "firstNight": 2,
+        "firstNightReminder": "",
+        "otherNight": 2,
+        "otherNightReminder": "Choose a player",
         "reminders": ["Registers as dead"],
         "remindersGlobal": [],
         "name": "Degrader",
         "team": "minion",
-        "ability": "Twice per game, at night*, choose a player. That player registers as dead starting tomorrow morning."
+        "ability": "Each night*, choose a player. That player registers as dead tomorrow day and tomorrow night."
     },
     {
         "id": "edger",
