@@ -76,7 +76,7 @@
         "remindersGlobal": [],
         "name": "Whimperer",
         "team": "townsfolk",
-        "ability": "Each night, if you whimper/moan satisfactorily, one townsfolk is protected from poisoning tomorrow day and tomorrow night. They are told this during the night."
+        "ability": "Each night, if you whimper/moan satisfactorily, one townsfolk is protected from poisoning tomorrow day and tomorrow night. They are told this during the night. (Can also be a confirmed good traveller)"
     },
     {
         "id": "whip",
@@ -129,7 +129,7 @@
         "remindersGlobal": [],
         "name": "Gag",
         "team": "townsfolk",
-        "ability": "Once per game, at night*, use your ability. The evil team cannot communicate to each other about the game tomorrow. They learn this. Any evil players who communicate to each other about the game are executed."
+        "ability": "Once per game, at night*, use your ability. The evil team cannot communicate to each other about the game tomorrow. They learn this. Any evil players who communicate to each other about the game might be executed."
     },
     {
         "id": "ropebunny",
@@ -142,16 +142,16 @@
         "remindersGlobal": [],
         "name": "Rope Bunny",
         "team": "townsfolk",
-        "ability": "If you die, you and your two townsfolk neighbors (living or dead) can’t leave their spot during the next day."
+        "ability": "If you die, you and your two townsfolk neighbors (living or dead) can’t leave their spot during the next day. You and they each learn this individually at night."
     },
     {
         "id": "vanilla",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
-        "reminders": [],
+        "reminders": ["Announce vanilla"],
         "remindersGlobal": [],
         "name": "Vanilla",
         "team": "townsfolk",
-        "ability": "You are useless, but you’re safe from the demon."
+        "ability": "You are useless, but everyone starts knowing who you are."
     },
     {
         "id": "clone",
