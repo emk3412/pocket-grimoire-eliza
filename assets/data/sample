@@ -76,7 +76,7 @@
         "remindersGlobal": [],
         "name": "Whimperer",
         "team": "townsfolk",
-        "ability": "Each night, if you whimper/moan satisfactorily, one townsfolk learns extra information tonight. The whimperer is not told whether their ability activated that night. (Can also be a confirmed good traveller)"
+        "ability": "Each night, if you whimper/moan satisfactorily, one townsfolk learns extra true information tonight. The whimperer is not told whether their ability activated that night. (Can also be a confirmed good traveller)"
     },
     {
         "id": "whip",
