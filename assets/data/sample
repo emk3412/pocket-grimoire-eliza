@@ -278,7 +278,7 @@
         "remindersGlobal": [],
         "name": "Shocker",
         "team": "demon",
-        "ability": "Each night*, you may choose a player; they die. Or, you may choose two players; if one of them is nominated tomorrow, that player is immediately executed. Executed good players might not die."
+        "ability": "Each night*, you may choose a player; they die. Or, if there are 5 or more players alive, you may choose two players; if one of them is nominated tomorrow, that player is immediately executed. Executed good players might not die."
     },
     {
         "id": "switch",
