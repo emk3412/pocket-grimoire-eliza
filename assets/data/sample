@@ -174,7 +174,7 @@
         "remindersGlobal": [],
         "name": "Blindfold",
         "team": "outsider",
-        "ability": "While you are alive, all townsfolk info is false. If you are mad about being an outsider at any time, you can never die by execution."
+        "ability": "While you are alive, one townsfolk is poisoned (the same one every day). If you are mad about being an outsider at any time, you can never die by execution."
     },
     {
         "id": "experimentalist",
@@ -206,7 +206,7 @@
         "remindersGlobal": [],
         "name": "Ruiner",
         "team": "minion",
-        "ability": "Each night*, choose a player. If that player nominates and the nominated player is executed, they don’t die."
+        "ability": "Each night*, you may choose a player. If that player nominates and the nominated player is executed, they don’t die."
     },
     {
         "id": "degrader",
@@ -219,7 +219,7 @@
         "remindersGlobal": [],
         "name": "Degrader",
         "team": "minion",
-        "ability": "Each night*, choose a player. That player registers as dead tomorrow day and tomorrow night."
+        "ability": "Each night*, you may choose a player. That player registers as dead tomorrow day and tomorrow night."
     },
     {
         "id": "edger",
@@ -265,7 +265,7 @@
         "remindersGlobal": [],
         "name": "Hypnotist",
         "team": "demon",
-        "ability": "Each night*, you may choose a player; they die. Each night*, you may also choose a player and a townsfolk or outsider character they are mad as. If the chosen character is an info role, choose the info they are mad about. The next day, the chosen player has to be mad or might die."
+        "ability": "Each night*, you may choose a player; they die. Each night, you may also choose a player and a townsfolk or outsider character they are mad as. If the chosen character is an info role, choose the info they are mad about. The next day, the chosen player has to be mad or might die."
     },
     {
         "id": "shocker",
@@ -278,7 +278,20 @@
         "remindersGlobal": [],
         "name": "Shocker",
         "team": "demon",
-        "ability": "Each night*, you may choose a player; they die. Or, if there are 5 or more players alive, you may choose two players; if one of them is nominated tomorrow, that player is immediately executed. Executed good players might not die."
+        "ability": "Each night*, you may choose a player; they die. Or, if there are 5 or more players alive, you may instead choose two players; if one of them is nominated tomorrow, that player is immediately executed. Executed good players might not die."
+    },
+    {
+        "id": "dominator",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/evil.png?raw=true",
+        "firstNight": 1,
+        "firstNightReminder": "Show minions and bluffs",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["Dead","Commanded"],
+        "remindersGlobal": [],
+        "name": "Dominator",
+        "team": "demon",
+        "ability": "Each night*, you may choose a player; they die. Each night, you may also tell the storyteller a player and a command. The longest the command can last is for tomorrow day and tomorrow night. If the command is unreasonable, the storyteller will prompt you to rewrite it. The storyteller will give the player the command, and they have to follow it or might die. They cannot tell anyone or hint that they are following a command until the day after, or they might die."
     },
     {
         "id": "switch",
@@ -291,7 +304,7 @@
         "remindersGlobal": [],
         "name": "Switch",
         "team": "demon",
-        "ability": "Each night*, you may choose a player; they die. Each night*, you may also choose two players (not yourself) to swap alignments."
+        "ability": "Each night*, you may choose a player; they die. Each night*, if there are 5 or more players alive, you may also choose two players (not yourself) to swap alignments."
     }
 
 ]
