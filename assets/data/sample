@@ -192,11 +192,9 @@
     {
         "id": "exhibitionist",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
-        "firstNight": 1,
-        "firstNightReminder": "Tell a townsfolk they are protected",
-        "otherNight": 0,
-        "otherNightReminder": "Tell a townsfolk they are protected",
-        "reminders": ["Knows exhibitionist","Evil"],
+        "firstNight": 2,
+        "firstNightReminder": "Wake up each of the Exhibitionist's neighbors individually, and show them This player is, point to the Exhibitionist, and then show them the Exhibitionist token.",
+        "reminders": [],
         "remindersGlobal": [],
         "name": "Exhibitionist",
         "team": "outsider",
@@ -205,8 +203,6 @@
     {
         "id": "ruiner",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
-        "firstNight": 0,
-        "firstNightReminder": "",
         "otherNight": 11,
         "otherNightReminder": "The rigger may choose a player. That player cannot leave their spot the next day. Add the tied up reminder to that player. Wake that player up and tell them they are tied up.",
         "reminders": ["Player they nom. lives"],
@@ -218,8 +214,6 @@
     {
         "id": "degrader",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
-        "firstNight": 2,
-        "firstNightReminder": "",
         "otherNight": 12,
         "otherNightReminder": "Choose a player",
         "reminders": ["Registers as dead"],
@@ -257,7 +251,7 @@
         "remindersGlobal": [],
         "name": "Evil Scientist",
         "team": "minion",
-        "ability": "Each night, choose a character. If that character is in play, they are poisoned tonight and tomorrow day."
+        "ability": "Each night, choose a character. If that character is in play, they are poisoned tonight and tomorrow day. You cannot poison the Voyeur or the Clone because they wake up before you."
     },
     {
         "id": "roleplayer",
