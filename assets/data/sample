@@ -145,6 +145,19 @@
         "ability": "If you die, you and your two townsfolk neighbors (living or dead) can’t leave their spot during the next day. You and they each learn this individually at night."
     },
     {
+        "id": "interrogator",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 3,
+        "otherNightReminder": "They must choose a player",
+        "reminders": ["Tied up"],
+        "remindersGlobal": [],
+        "name": "Interrogator",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a player. If they lie during town hall or executions tomorrow, they might be immediately executed. The player is told that you chose them."
+    },
+    {
         "id": "vanilla",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "reminders": ["Announce vanilla"],
@@ -316,7 +329,7 @@
         "ability": "Each night*, you may choose a player; they die. Each night*, if there are 5 or more players alive, you may also choose two players (not yourself) to swap alignments."
     },
     {
-        "id": "whimperer",
+        "id": "whimpererT",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "firstNight": 3,
         "firstNightReminder": "Tell a townsfolk extra true info",
