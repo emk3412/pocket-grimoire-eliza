@@ -329,7 +329,7 @@
         "ability": "Each night*, you may choose a player; they die. Each night*, if there are 5 or more players alive, you may also choose two players (not yourself) to swap alignments."
     },
     {
-        "id": "whimpererT",
+        "id": "whimperertraveller",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "firstNight": 3,
         "firstNightReminder": "Tell a townsfolk extra true info",
