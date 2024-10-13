@@ -2,10 +2,6 @@
     {
         "id": "denier",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
         "reminders": ["Poisoned"],
         "remindersGlobal": [],
         "name": "Denier",
@@ -15,34 +11,26 @@
     {
         "id": "masochist",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
         "reminders": [],
         "remindersGlobal": [],
         "name": "Masochist",
         "team": "townsfolk",
-        "ability": "Every time you are chosen by the demon, you gain an additional not in play townsfolk ability chosen by the storyteller and do not die."
+        "ability": "Every time you are chosen by an evil player, you gain an additional not in play townsfolk ability chosen by the storyteller and are not affected by the evil player's ability."
     },
     {
         "id": "rigger",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
-        "firstNight": 0,
-        "firstNightReminder": "",
         "otherNight": 5,
-        "otherNightReminder": "The rigger may choose a player. That player cannot leave their spot the next day. Add the tied up reminder to that player. Wake that player up and tell them they are tied up.",
+        "otherNightReminder": "The rigger may choose a player. That player cannot leave their spot the next day or might be executed. Add the tied up reminder to that player and remove the previous tied up reminder. Wake that player up and show them You cannot leave your spot tomorrow or might be executed.",
         "reminders": ["Tied up"],
         "remindersGlobal": [],
         "name": "Rigger",
         "team": "townsfolk",
-        "ability": "Each night*, you may choose a player; they cannot leave their spot during the next day."
+        "ability": "Each night*, you may choose a player; they cannot leave their spot during the next day or might be executed. The chosen player learns at night that they are tied up."
     },
     {
         "id": "voyeur",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
-        "firstNight": 0,
-        "firstNightReminder": "",
         "otherNight": 1,
         "otherNightReminder": "If the voyeur and another player have agreed, wake the voyeur up when the other player wakes up and show them what the other player sees. If they chose the exhibitionist, wake up the voyeur and the exhibitionist and show them that they are now evil. If the voyeur is poisoned, wake them up with the correct player, but that player is also poisoned.",
         "reminders": ["Show voyeur", "Wake up tonight"],
@@ -54,24 +42,22 @@
     {
         "id": "size queen",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
-        "firstNight": 0,
-        "firstNightReminder": "",
         "otherNight": 6,
-        "otherNightReminder": "May choose a player",
+        "otherNightReminder": "The Size Queen must choose a player. Remove the previous 4 votes reminder. If the chosen player is the demon or has a townsfolk ability, mark them with the 4 votes reminder.",
         "reminders": ["4 votes"],
         "remindersGlobal": [],
         "name": "Size Queen",
         "team": "townsfolk",
-        "ability": "Each night*, you may choose a player; if they are the demon or have a townsfolk ability, their vote counts as 4 votes tomorrow."
+        "ability": "Each night*, choose a player; if they are the demon or have a townsfolk ability, their vote counts as 4 votes tomorrow."
     },
     {
         "id": "tickler",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
-        "firstNight": 2,
-        "firstNightReminder": "Show demon tickler is in play",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": ["Dead","Tickler in play"],
+        "firstNight": LAST,
+        "firstNightReminder": "Wake up the demon and show them that the tickler is in play",
+        "otherNight": 16,
+        "otherNightReminder": "If the demon laughed tonight, and you choose to kill the tickler, mark the tickler with the dead reminder and announce that they died when you announce other deaths in the morning.",
+        "reminders": ["Dead"],
         "remindersGlobal": [],
         "name": "Tickler",
         "team": "townsfolk",
@@ -80,23 +66,23 @@
     {
         "id": "whimperer",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
-        "firstNight": 3,
-        "firstNightReminder": "Tell a townsfolk extra true info",
+        "firstNight": SECOND TO LAST,
+        "firstNightReminder": "If the whimperer whimpered/moaned satisfactorily tonight, wake a good townsfolk up and tell them extra true info",
         "otherNight": 14,
-        "otherNightReminder": "Tell a townsfolk extra true info",
-        "reminders": ["Ability works"],
+        "otherNightReminder": "If the whimperer whimpered/moaned satisfactorily tonight, wake a good townsfolk up and tell them extra true info",
+        "reminders": ["True info"],
         "remindersGlobal": [],
         "name": "Whimperer",
         "team": "townsfolk",
-        "ability": "Each night, if you whimper/moan satisfactorily, one townsfolk learns extra true information tonight. The whimperer is not told whether their ability activated that night."
+        "ability": "Each night, if you whimper/moan satisfactorily, one good townsfolk learns extra true information tonight. The whimperer is not told whether their ability activated that night."
     },
     {
         "id": "whip",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
-        "firstNight": 2,
-        "firstNightReminder": "Choose a player",
+        "firstNight": AFTER FIRST ROLES BEFORE LAST ROLES,
+        "firstNightReminder": "Remove the previous Can ex. with 4 votes reminder. The Whip must choose a player. If the chosen player is good, mark them with the Can ex. with 4 votes reminder",
         "otherNight": 7,
-        "otherNightReminder": "Choose a player",
+        "otherNightReminder": "Remove the previous Can ex. with 4 votes reminder. The Whip must choose a player. If the chosen player is good, mark them with the Can ex. with 4 votes reminder",
         "reminders": ["Can ex. with 4 votes"],
         "remindersGlobal": [],
         "name": "Whip",
@@ -106,37 +92,31 @@
     {
         "id": "handcuff",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
-        "firstNight": 3,
-        "firstNightReminder": "Tell players if they are handcuffed",
         "otherNight": 8,
-        "otherNightReminder": "Tell players if they are handcuffed",
-        "reminders": ["Can only talk to..."],
+        "otherNightReminder": "If the Handcuff chose two players of different alignments yesterday: Wake up each handcuffed player separately and show them This player chose you and then the Handcuff token. Then show them an info token that says You can only speak to PLAYER NAME about the game tomorrow until town hall or might be executed",
+        "reminders": ["Handcuffed"],
         "remindersGlobal": [],
         "name": "Handcuff",
         "team": "townsfolk",
-        "ability": "Each day, you may publicly choose two players. If they are different alignments, they can only speak to each other about the game tomorrow until town hall. They each learn this separately at night. If a player breaks this rule, they might die."
+        "ability": "Each day, you may publicly choose two players. If they are different alignments, they can only speak to each other about the game tomorrow until town hall or might be executed. They each learn this separately at night."
     },
 
     {
         "id": "counter",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
-        "firstNight": 2,
-        "firstNightReminder": "Learn sequence",
-        "otherNight": 0,
-        "otherNightReminder": "",
+        "firstNight": THIRD TO LAST,
+        "firstNightReminder": "Wake up the Counter and show them the sequence",
         "reminders": [],
         "remindersGlobal": [],
         "name": "Counter",
         "team": "townsfolk",
-        "ability": "You start knowing the sequence of good and evil players, but not who is who."
+        "ability": "You start knowing the clockwise sequence of good and evil players, but not who is who. For example, you might learn: 1 evil, 3 good, 1 evil, 1 good. You may write this down, but you may not take a picture."
     },
     {
         "id": "gag",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
-        "firstNight": 0,
-        "firstNightReminder": "",
         "otherNight": 9,
-        "otherNightReminder": "Use ability?",
+        "otherNightReminder": "Wake the gag and show them Use your ability? If yes, mark the evil players with the Evil team gagged reminder",
         "reminders": ["Evil team gagged"],
         "remindersGlobal": [],
         "name": "Gag",
@@ -146,24 +126,22 @@
     {
         "id": "ropebunny",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
-        "firstNight": 0,
-        "firstNightReminder": "Tell them they are tied up",
+        "firstNight": FOURTH TO LAST,
+        "firstNightReminder": "If the Rope Bunny died yesterday or tonight, wake them up and show them You cannot leave your spot tomorrow or might be executed. Then wake up each of their neighbors who have townsfolk abilities (living or dead) and show them the same info.",
         "otherNight": 13,
-        "otherNightReminder": "Tell them they are tied up",
+        "otherNightReminder": "If the Rope Bunny died yesterday or tonight, wake them up and show them You cannot leave your spot tomorrow or might be executed. Then wake up each of their neighbors who have townsfolk abilities (living or dead) and show them the same info.",
         "reminders": ["Tied up"],
         "remindersGlobal": [],
         "name": "Rope Bunny",
         "team": "townsfolk",
-        "ability": "If you die, you and your two townsfolk neighbors (living or dead) can’t leave their spot during the next day. You and they each learn this individually at night."
+        "ability": "If you die, you and your two neighbors who have townsfolk abilities (living or dead) can’t leave their spot during the next day or might be executed. You and they each learn this individually at night."
     },
     {
         "id": "interrogator",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
-        "firstNight": 0,
-        "firstNightReminder": "",
         "otherNight": 10,
-        "otherNightReminder": "They must choose a player",
-        "reminders": ["Tied up"],
+        "otherNightReminder": "The interrogator must choose a player. Mark them with the Can't lie reminder. Wake them up and show them This player chose you and then the Interrogator token.",
+        "reminders": ["Can't lie"],
         "remindersGlobal": [],
         "name": "Interrogator",
         "team": "townsfolk",
@@ -172,24 +150,24 @@
     {
         "id": "vanilla",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
-        "reminders": ["Announce vanilla"],
+        "reminders": ["Announce Vanilla"],
         "remindersGlobal": [],
         "name": "Vanilla",
         "team": "townsfolk",
-        "ability": "You are useless, but everyone starts knowing who you are."
+        "ability": "You are useless, but everyone starts knowing who you are. This is announced at the beginning of the first day."
     },
     {
         "id": "clone",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
         "firstNight": 1,
-        "firstNightReminder": "Choose a player?",
+        "firstNightReminder": "The Clone may choose a player. Show the Clone You are good or You are evil. Then show the Clone You are and then the token of the player they chose. If they chose the demon, show them a not-in-play minion token. Mark the clone with the new token.",
         "otherNight": 2,
-        "otherNightReminder": "Choose a player?",
+        "otherNightReminder": "The Clone may choose a player. Show the Clone You are good or You are evil. Then show the Clone You are and then the token of the player they chose. If they chose the demon, show them a not-in-play minion token. Mark the clone with the new token.",
         "reminders": [],
         "remindersGlobal": [],
         "name": "Clone",
         "team": "outsider",
-        "ability": "Once per game, at night, choose a player. You become their alignment and gain their ability, even if they are dead or have already used their ability. If you choose the demon, you learn this but gain a not in play minion ability."
+        "ability": "Once per game, at night, choose a player. You become their alignment and gain their ability, even if they are dead or have already used their ability. If you choose the demon, you gain a not in play minion ability. From now on, you wake up at the same time as the player you chose."
     },
 
     {
