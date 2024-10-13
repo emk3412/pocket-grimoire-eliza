@@ -69,14 +69,14 @@
         "id": "whimperer",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "firstNight": 3,
-        "firstNightReminder": "Tell a townsfolk they are protected",
+        "firstNightReminder": "Tell a townsfolk extra true info",
         "otherNight": 3,
-        "otherNightReminder": "Tell a townsfolk they are protected",
+        "otherNightReminder": "Tell a townsfolk extra true info",
         "reminders": ["Ability works"],
         "remindersGlobal": [],
         "name": "Whimperer",
         "team": "townsfolk",
-        "ability": "Each night, if you whimper/moan satisfactorily, one townsfolk learns extra true information tonight. The whimperer is not told whether their ability activated that night. (Can also be a confirmed good traveller)"
+        "ability": "Each night, if you whimper/moan satisfactorily, one townsfolk learns extra true information tonight. The whimperer is not told whether their ability activated that night."
     },
     {
         "id": "whip",
@@ -305,6 +305,19 @@
         "name": "Switch",
         "team": "demon",
         "ability": "Each night*, you may choose a player; they die. Each night*, if there are 5 or more players alive, you may also choose two players (not yourself) to swap alignments."
+    },
+    {
+        "id": "whimperer",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "firstNight": 3,
+        "firstNightReminder": "Tell a townsfolk extra true info",
+        "otherNight": 3,
+        "otherNightReminder": "Tell a townsfolk extra true info",
+        "reminders": ["Ability works"],
+        "remindersGlobal": [],
+        "name": "Whimperer",
+        "team": "traveller",
+        "ability": "Each night, if you whimper/moan satisfactorily, one townsfolk learns extra true information tonight. The whimperer is not told whether their ability activated that night. You start the game with a good alignment."
     }
 
 ]
