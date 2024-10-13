@@ -239,6 +239,15 @@
         "team": "minion",
         "ability": "The first time you are executed, you live and the nominator dies at night. Executed good players might not die."
     },
+    {
+        "id": "scientist",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
+        "reminders": ["No ability","Dead","Ex. good might not die"],
+        "remindersGlobal": [],
+        "name": "Evil Scientist",
+        "team": "minion",
+        "ability": "Each night, choose a character. If that character is in play, they are poisoned tonight and tomorrow day."
+    },
 
 
     {
@@ -265,7 +274,7 @@
         "remindersGlobal": [],
         "name": "Hypnotist",
         "team": "demon",
-        "ability": "Each night*, you may choose a player; they die. Each night, you may also choose a player and a townsfolk or outsider character they are mad as. If the chosen character is an info role, choose the info they are mad about. The next day, the chosen player has to be mad or might die."
+        "ability": "Each night*, you may choose a player; they die. Each night, you may also choose a player and a townsfolk or outsider character they are mad as. If the chosen character is a role that involves information or choosing players, choose the info they are mad about or the players they are mad about having chosen. The next day, the chosen player has to be mad or might die."
     },
     {
         "id": "shocker",
