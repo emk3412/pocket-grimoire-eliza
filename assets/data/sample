@@ -241,7 +241,7 @@
         "remindersGlobal": [],
         "name": "Edger",
         "team": "minion",
-        "ability": "If the demon is executed, ending the game, play for one more day. If a player is then executed, the demon and two other players are resurrected the next morning. Executed good players might be resurrected two mornings after they are executed."
+        "ability": "If the demon dies, ending the game, keep playing. The demon might be resurrected."
     },
     {
         "id": "punisher",
@@ -253,13 +253,22 @@
         "ability": "The first time you are executed, you live and the nominator dies at night. Executed good players might not die."
     },
     {
-        "id": "scientist",
+        "id": "evilscientist",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
         "reminders": ["No ability","Dead","Ex. good might not die"],
         "remindersGlobal": [],
         "name": "Evil Scientist",
         "team": "minion",
         "ability": "Each night, choose a character. If that character is in play, they are poisoned tonight and tomorrow day."
+    },
+    {
+        "id": "roleplayer",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
+        "reminders": ["No ability","Dead","Ex. good might not die"],
+        "remindersGlobal": [],
+        "name": "Roleplayer",
+        "team": "minion",
+        "ability": "Each night, one townsfolk learns extra false information."
     },
 
 
