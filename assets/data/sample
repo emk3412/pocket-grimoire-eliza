@@ -48,7 +48,7 @@
         "otherNightReminder": "May choose a player",
         "reminders": ["4 votes"],
         "remindersGlobal": [],
-        "name": "Size queen",
+        "name": "Size Queen",
         "team": "townsfolk",
         "ability": "Each night*, you may choose a player; if they are the demon or have a townsfolk ability, their vote counts as 4 votes tomorrow."
     },
