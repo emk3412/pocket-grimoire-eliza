@@ -74,7 +74,7 @@
         "remindersGlobal": [],
         "name": "Whimperer",
         "team": "townsfolk",
-        "ability": "Each night, if you whimper/moan satisfactorily, one good townsfolk learns extra true information tonight. The whimperer is not told whether their ability activated that night."
+        "ability": "Each night, if you whimper/moan satisfactorily, one good townsfolk learns extra true information tonight. You are not told whether your ability activated that night. You might die at any time."
     },
     {
         "id": "whip",
@@ -87,7 +87,7 @@
         "remindersGlobal": [],
         "name": "Whip",
         "team": "townsfolk",
-        "ability": "Each night, choose a player. Tomorrow, if they are good, any nomination they make will pass immediately if there are at least 4 votes."
+        "ability": "Each night, choose a player. Tomorrow, any nomination they make will pass immediately if there are at least 4 votes. You cannot become evil."
     },
     {
         "id": "handcuff",
@@ -110,7 +110,7 @@
         "remindersGlobal": [],
         "name": "Counter",
         "team": "townsfolk",
-        "ability": "You start knowing the clockwise sequence of good and evil players, but not who is who. For example, you might learn: 1 evil, 3 good, 1 evil, 1 good. You may write this down, but you may not take a picture."
+        "ability": "You start knowing the clockwise sequence of good and evil players, but you don't learn which player it starts with. For example, you might learn: 1 evil, 3 good, 1 evil, 1 good."
     },
     {
         "id": "gag",
@@ -186,7 +186,7 @@
         "remindersGlobal": [],
         "name": "Experimentalist",
         "team": "outsider",
-        "ability": "Each day, for the first three days, you have to be mad as a different townsfolk of your choice or might be executed. If you survive past the third day, you can’t die if you are good."
+        "ability": "Each day, for the first three days, you have to be mad as a different townsfolk of your choice or might be executed."
     },
 
     {
@@ -229,7 +229,7 @@
         "remindersGlobal": [],
         "name": "Edger",
         "team": "minion",
-        "ability": "If the demon dies, ending the game, keep playing. The demon might be resurrected."
+        "ability": "If the demon dies, ending the game, play for one more day. If an evil player is then executed, evil wins."
     },
     {
         "id": "punisher",
@@ -238,7 +238,7 @@
         "remindersGlobal": [],
         "name": "Punisher",
         "team": "minion",
-        "ability": "The first time you are executed, you live and the nominator dies at night. Executed good players might not die."
+        "ability": "The first time you are executed, you live and the nominator dies at night."
     },
     {
         "id": "evilscientist",
@@ -251,20 +251,20 @@
         "remindersGlobal": [],
         "name": "Evil Scientist",
         "team": "minion",
-        "ability": "Each night, choose a character. Any players who have this character's ability are poisoned tonight and tomorrow day. You cannot choose Clone."
+        "ability": "Each night, choose a character. Any players who have this character's ability are poisoned tonight and tomorrow day."
     },
     {
-        "id": "roleplayer",
+        "id": "evilwhimperer",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
         "firstNight": 10,
-        "firstNightReminder": "Wake up one good townsfolk and show them false information.",
+        "firstNightReminder": "If the evil whimperer whimpered/moaned satisfactorily tonight, wake a good townsfolk up and show them extra false info.",
         "otherNight": 16,
-        "otherNightReminder": "Wake up one good townsfolk and show them false information.",
+        "otherNightReminder": "If the evil whimperer whimpered/moaned satisfactorily tonight, wake a good townsfolk up and show them extra false info",
         "reminders": ["No ability","Dead","Ex. good might not die"],
         "remindersGlobal": [],
-        "name": "Roleplayer",
+        "name": "Evil Whimperer",
         "team": "minion",
-        "ability": "Each night, one good townsfolk learns extra false information."
+        "ability": "Each night, if you whimper/moan satisfactorily, one good townsfolk learns extra false information tonight. You are not told whether your ability activated that night. You might die at any time."
     },
 
 
@@ -279,7 +279,7 @@
         "remindersGlobal": [],
         "name": "Sadist",
         "team": "demon",
-        "ability": "Each night*, you may choose a player. If you choose an alive player, they die. If you choose a dead player, they turn evil. When you choose the masochist, both you and they gain the same additional not in play townsfolk ability."
+        "ability": "Each night*, you may choose a player. If you choose an alive player, they die. If you choose a dead player, they might turn evil. If you choose the masochist, both you and they gain the same additional not in play townsfolk ability."
     },
     {
         "id": "hypnotist",
@@ -292,7 +292,7 @@
         "remindersGlobal": [],
         "name": "Hypnotist",
         "team": "demon",
-        "ability": "Each night*, you may choose a player; they die. Each night, you may also choose a player and a townsfolk or outsider character they are mad as. If the chosen character is a role that involves information or choosing players, choose the info they are mad about or the players they are mad about having chosen. The next day, the chosen player has to be mad or might die."
+        "ability": "Each night*, you may choose a player; they die. Each night, you may also choose a player and a townsfolk or outsider character they are mad as. The next day, the chosen player has to be mad or might be executed."
     },
     {
         "id": "shocker",
@@ -318,7 +318,7 @@
         "remindersGlobal": [],
         "name": "Dominator",
         "team": "demon",
-        "ability": "Each night*, you may choose a player; they die. Each night, you may also tell the storyteller a player and a command. The longest the command can last is for tomorrow day and tomorrow night. If the command is unreasonable, the storyteller will prompt you to rewrite it. The storyteller will give the player the command, and they have to follow it or might die. They cannot tell anyone or hint that they are following a command until the day after, or they might die."
+        "ability": "Each night*, you may choose a player; they die. Each night, you may also tell the storyteller a player and a command. The longest the command can last is for tomorrow day and tomorrow night. If the command is unreasonable, the storyteller will prompt you to rewrite it. The storyteller will give the player the command, and they have to follow it or might be executed. They cannot tell anyone or hint that they are following a command until the day after, or they might be executed."
     },
     {
         "id": "switch",
@@ -337,14 +337,14 @@
         "id": "whimperertraveller",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "firstNight": 9,
-        "firstNightReminder": "Tell a good townsfolk extra true info",
+        "firstNightReminder": "Tell a good townsfolk extra info",
         "otherNight": 15,
-        "otherNightReminder": "Tell a good townsfolk extra true info",
-        "reminders": ["Ability works"],
+        "otherNightReminder": "Tell a good townsfolk extra info",
+        "reminders": ["True info","False info"],
         "remindersGlobal": [],
         "name": "Whimperer",
         "team": "traveller",
-        "ability": "Each night, if you whimper/moan satisfactorily, one good townsfolk learns extra true information tonight. The whimperer is not told whether their ability activated that night. You start the game with a good alignment."
+        "ability": "Each night, if you whimper/moan satisfactorily, one good townsfolk learns extra information tonight. If you are good, the info is true. If you are evil, the info is false. You are not told whether your ability activated that night."
     }
 
 ]
