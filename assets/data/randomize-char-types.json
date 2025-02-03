@@ -1,6 +1,6 @@
 [
     {
-        "id": "tow",
+        "id": "tow1",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
@@ -9,7 +9,7 @@
         "ability": ""
     },
     {
-        "id": "tow",
+        "id": "tow2",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
@@ -18,7 +18,7 @@
         "ability": ""
     },
     {
-        "id": "tow",
+        "id": "tow3",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
@@ -27,7 +27,7 @@
         "ability": ""
     },
     {
-        "id": "tow",
+        "id": "tow4",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
@@ -36,7 +36,7 @@
         "ability": ""
     },
     {
-        "id": "tow",
+        "id": "tow5",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
@@ -45,7 +45,7 @@
         "ability": ""
     },
     {
-        "id": "tow",
+        "id": "tow6",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
@@ -54,7 +54,7 @@
         "ability": ""
     },
     {
-        "id": "tow",
+        "id": "tow7",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
@@ -63,7 +63,7 @@
         "ability": ""
     },
     {
-        "id": "tow",
+        "id": "tow8",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
@@ -72,7 +72,7 @@
         "ability": ""
     },
     {
-        "id": "tow",
+        "id": "tow9",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
@@ -81,7 +81,7 @@
         "ability": ""
     },
     {
-        "id": "tow",
+        "id": "tow10",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
@@ -90,7 +90,7 @@
         "ability": ""
     },
     {
-        "id": "tow",
+        "id": "tow11",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
@@ -99,7 +99,7 @@
         "ability": ""
     },
     {
-        "id": "tow",
+        "id": "tow12",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
@@ -108,7 +108,7 @@
         "ability": ""
     },
     {
-        "id": "tow",
+        "id": "tow13",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
@@ -118,7 +118,7 @@
     },
   
     {
-        "id": "out",
+        "id": "out1",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
@@ -127,7 +127,7 @@
         "ability": ""
     },
     {
-        "id": "out",
+        "id": "out2",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
@@ -136,7 +136,7 @@
         "ability": ""
     },
     {
-        "id": "out",
+        "id": "out3",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
@@ -145,7 +145,7 @@
         "ability": ""
     },
     {
-        "id": "out",
+        "id": "out4",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
@@ -155,7 +155,7 @@
     },
 
     {
-        "id": "min",
+        "id": "min1",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
@@ -164,7 +164,7 @@
         "ability": ""
     },
     {
-        "id": "min",
+        "id": "min2",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
@@ -173,7 +173,7 @@
         "ability": ""
     },
     {
-        "id": "min",
+        "id": "min3",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
@@ -182,7 +182,7 @@
         "ability": ""
     },
     {
-        "id": "min",
+        "id": "min4",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
         "reminders": [],
         "remindersGlobal": [],
