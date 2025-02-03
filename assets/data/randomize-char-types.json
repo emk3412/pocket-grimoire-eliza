@@ -8,6 +8,114 @@
         "team": "townsfolk",
         "ability": ""
     },
+    {
+        "id": "tow",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "Townsfolk",
+        "team": "townsfolk",
+        "ability": ""
+    },
+    {
+        "id": "tow",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "Townsfolk",
+        "team": "townsfolk",
+        "ability": ""
+    },
+    {
+        "id": "tow",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "Townsfolk",
+        "team": "townsfolk",
+        "ability": ""
+    },
+    {
+        "id": "tow",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "Townsfolk",
+        "team": "townsfolk",
+        "ability": ""
+    },
+    {
+        "id": "tow",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "Townsfolk",
+        "team": "townsfolk",
+        "ability": ""
+    },
+    {
+        "id": "tow",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "Townsfolk",
+        "team": "townsfolk",
+        "ability": ""
+    },
+    {
+        "id": "tow",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "Townsfolk",
+        "team": "townsfolk",
+        "ability": ""
+    },
+    {
+        "id": "tow",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "Townsfolk",
+        "team": "townsfolk",
+        "ability": ""
+    },
+    {
+        "id": "tow",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "Townsfolk",
+        "team": "townsfolk",
+        "ability": ""
+    },
+    {
+        "id": "tow",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "Townsfolk",
+        "team": "townsfolk",
+        "ability": ""
+    },
+    {
+        "id": "tow",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "Townsfolk",
+        "team": "townsfolk",
+        "ability": ""
+    },
+    {
+        "id": "tow",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/good.png?raw=true",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "Townsfolk",
+        "team": "townsfolk",
+        "ability": ""
+    },
   
     {
         "id": "out",
@@ -18,7 +126,61 @@
         "team": "outsider",
         "ability": ""
     },
+    {
+        "id": "out",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "Outsider",
+        "team": "outsider",
+        "ability": ""
+    },
+    {
+        "id": "out",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "Outsider",
+        "team": "outsider",
+        "ability": ""
+    },
+    {
+        "id": "out",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/outsider.png?raw=true",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "Outsider",
+        "team": "outsider",
+        "ability": ""
+    },
 
+    {
+        "id": "min",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "Minion",
+        "team": "minion",
+        "ability": ""
+    },
+    {
+        "id": "min",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "Minion",
+        "team": "minion",
+        "ability": ""
+    },
+    {
+        "id": "min",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "Minion",
+        "team": "minion",
+        "ability": ""
+    },
     {
         "id": "min",
         "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minion.png?raw=true",
